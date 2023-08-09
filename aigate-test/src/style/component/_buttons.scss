@@ -1,0 +1,19 @@
+@import "src/style/abstracts/variables";
+
+.button-primary {
+  background-color: $color-secondary-dark;
+  border-radius: 1rem;
+  color: black;
+  font-size: 1rem;
+  border: $color-secondary-dark;
+  width: 15rem;
+  span {
+    color: black;
+  }
+
+  &:hover {
+    background-color: $color-secondary-light;
+    transform: scale(1.1);
+    color: black;
+  }
+}

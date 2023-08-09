@@ -1,0 +1,41 @@
+@import "src/style/abstracts/variables";
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+                  to right,
+                  rgba($color-primary-light, 0.8),
+                  rgba($color-primary-dark, 0.8)
+  );
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+
+  &__nav {
+    padding-right: 2rem;
+    display: flex;
+    gap: 2rem;
+
+    &-item {
+      color: $color-secondary-light;
+      text-decoration: none;
+      font-size: 1.5rem;
+      transition: all 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+        color: $color-secondary-dark;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "src/style/abstracts/variables";
+
+.link-primary {
+  transition: all 0.5s;
+  color: $color-secondary-light;
+
+  &:hover {
+    transform: scale(1.2) translateY(-2px);
+    color: $color-secondary-dark;
+  }
+  span {
+    color: $color-secondary-light;
+    &:hover {
+      color: $color-secondary-dark;
+    }
+  }
+}

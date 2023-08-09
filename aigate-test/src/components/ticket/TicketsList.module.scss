@@ -1,0 +1,8 @@
+@import "src/style/abstracts/variables";
+@import "src/style/component/buttons";
+@import "src/style/component/link";
+
+.button-primary {
+  margin: 1rem  2rem 1rem;
+  border-radius: 2px;
+}
